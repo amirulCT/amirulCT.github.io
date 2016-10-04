@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>container</title>
+	<STYLE TYPE="text/css">
+
+		div#container {
+
+			border: 5px solid black;
+			margin: auto;
+			width: 1002px;
+			background: white;
+			
+		}
+
+			div#header {
+			/*border: 3px solid #a7c572;*/
+			width: 300px;
+			height: 202;
+ 			
+		}
+
+			div#header2 {
+			width: 690px;
+			padding-bottom: 50px;
+ 			
+		}
+
+		div#header, div#header2 {
+
+			display: inline-block;
+			
+		}
+
+			.button {
+				
+				display: inline-block;
+				text-align: center;
+				box-sizing: border-box;
+				border: 3px solid #a1a1a1;
+    			background: #dddddd;
+    			width: 100px;
+    			border-radius: 25px;
+				margin-left: 120px;
+			}
+
+			b1 {
+				border: 1px solid blue;
+				width: 25%;
+				height: 40px;
+				margin-left: 50px;
+			}
+
+		
+			.middle {
+			display: inline-block;
+
+
+			}
+
+			
+
+
+			div#left {
+				height: 200px;
+				width: 300px;
+				border: 5px solid black;
+				margin-left: 1px;
+				background: brown;
+				margin-bottom: 3px;
+			}
+
+			div#center {
+				height: 200px;
+				width: 675px;
+				border: 5px solid black;
+				background: green;
+
+			}
+
+			/*.bottom {
+			display: inline-block;
+
+
+			}*/
+
+			div#bottom1 {
+				height: 100px;
+				width: 234.9px;
+				border: 5px solid black;
+				margin-left: 2px;
+
+				background: magenta;
+			}
+
+			div#bottom3 {
+				height: 100px;
+				width: 234.9px;
+				border: 5px solid black;
+				background: yellow;
+				position: relative;
+
+			}
+
+			div#bottom2 {
+				height: 100px;
+				width: 235px;
+				border: 5px solid black;
+				background: blue;
+				margin-right: 2px;
+			}
+
+			div#bottom4 {
+				height: 100px;
+				width: 239px;
+				border: 5px solid black;
+				background: orange;
+				
+			}
+
+			#header, #header2 {
+
+				display: inline-block;
+				
+			}
+
+			div#footer {
+
+			border: 5px solid black;
+			width: 987px;
+			padding-bottom: 50px;
+			background: purple;
+			margin-left: 2px;
+			margin-bottom: 2px;
+		}
+
+
+			div.bottom {
+    		position: relative;
+    		
+    		height: 300px;
+    		border: 5px solid #bebf54;
+    		display: inline-block;
+    		
+}
+
+
+
+
+			div.buttop {
+    		position: absolute;
+    		top: -20px;
+    		right: -15px;
+    		height: 40px;
+    		width: 40px;
+    		background-color: black;
+    		border-radius: 100%;
+    		text-align: center;
+    		padding: 2px;
+    		font-size: 38px;
+
+}
+
+			div.buttom {
+    		position: absolute;
+    		bottom: -20px;
+    		left: -15px;
+    		height: 40px;
+    		background-color: black;
+    		border-radius: 100%;
+    		width: 40px;
+    		text-align: center;
+    		font-size: 38px;
+}
+
+	</STYLE>
+</head>
+<body>
+	<div id="container">
+		<div id="header"><img src="pz.png" height="203" width="420"></div>
+			<div id="header2">
+			<div id="b1" class="button"><p>Home</p></div>
+			<div id="b2" class="button"><p>About</p></div>
+			<div id="b3" class="button"><p>Contact Us</p></div>
+		</div>
+
+		<div id="left" class="middle"><p align="center">Left</p></div>
+		<div id="center" class="middle"><p align="center">Middle</p></div>
+
+		<div id="bottom1" class="bottom">
+			<div id="buttop" class="buttop"></div>
+			<div id="buttom" class="buttom"></div>
+		</div>
+
+		<div id="bottom2" class="bottom"></div>
+		<div id="bottom3" class="bottom"></div>
+		<div id="bottom4" class="bottom"></div>
+
+		<div id="footer"></div>
+
+	</div>
+</body>
+</html>
